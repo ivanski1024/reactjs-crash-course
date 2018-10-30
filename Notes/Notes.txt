@@ -1,0 +1,65 @@
+React Introduction 
+
+Questions:
+
+1. previous knowledge of the students?
+
+- HTML/CSS? 
+- DOM? 
+
+2. What tools are you using for the slides?
+
+
+
+
+
+
+Used tools for development:
+
+VS Code
+	extensions: 
+		- Simple React Snippets
+		- Prettier
+Node.js 
+npm
+React Chrome Extension
+
+
+
+
+
+
+Content:
+
+What are we going to learn in this presentation?
+
+- What is React?
+	React is an opensource JavaScript library (NOT a framework) for building dynamic UI (User Interface)
+	React is declarative. You describe what you want to achive and React does it on its own. You don't need to write the underlying stuff (which is boring)
+
+https://github.com/facebook/react
+
+- Initially developed by Facebook. Now maintained by Facebook, Instagram and the ReactJS community
+
+- Why React?
+
+	Eliminates the need to work with the DOM (What is DOM? TODO: ... ). You work with a so called "VirtualDOM" which is more easy to use and has more features in it.
+
+- What tools are used for ReactJS development?
+  - Either with Node.js and npm
+  - Or simply include it in the HTML and use it there
+
+
+Now for the technical part:
+
+
+- React basics:
+	Component
+		render() - this method should return the actual UI written in JSX
+		this.state - this should store the state of the component. 
+			- What is the state? all the data that is visualized 
+
+- What is JSX? 
+		It's realy like Razor Syntax
+
+- Show example React app
