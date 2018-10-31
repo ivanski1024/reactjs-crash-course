@@ -43,6 +43,15 @@ https://github.com/facebook/react
 
 - Why React?
 
+	In React we define reusable 'Components'.
+	Those components should have the render() method which defines how the component looks
+	Components are nested in hierarchy (for example: show diagram)
+
+
+
+	
+	
+
 	Eliminates the need to work with the DOM (What is DOM? TODO: ... ). You work with a so called "VirtualDOM" which is more easy to use and has more features in it.
 
 - What tools are used for ReactJS development?
@@ -63,3 +72,6 @@ Now for the technical part:
 		It's realy like Razor Syntax
 
 - Show example React app
+
+- Resources 
+	https://devhints.io/react
