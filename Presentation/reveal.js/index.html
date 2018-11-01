@@ -25,18 +25,36 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
+					<h1>ReactJS Crash Course</h1>
+				</section>
+				<section>
 					<h3>What are we going to learn <br> in this presentation?</h3>
 					<ul>
 						<li class="fragment fade-up">What is ReactJS?</li>
 						<li class="fragment fade-up">Why ReactJS?</li>
-						<li class="fragment fade-up">Tools for ReactJS?</li>
 						<li class="fragment fade-up">How to ReactJS?</li>
+						<li class="fragment fade-up">Tools for ReactJS?</li>
 					</ul>
+				</section>
+				<section>
+					<h3>ES6</h3>
+					<h6>Some features:</h6>
+					<ul>
+						<li><pre style="display: inline-block"><code style="display: inline-block">let</code></pre></li>
+						<li><pre style="display: inline-block"><code style="display: inline-block">import/export</code></pre></li>
+						<li><pre style="display: inline-block"><code style="display: inline-block">() => {}</code></pre></li>
+					</ul>
+				</section>
+				<section>
+					<h3>JSX</h3>
+					<h6>Similiar to Razor Syntax</h6>
+					<span style="text-align: center"><pre style="display: inline-block; text-align: center"><code style="display: inline-block; text-align: center">const element = <h1>Hello, world!</h1>;</code></pre></span>
 				</section>
 				<section>
 					<h3>What is ReactJS?</h3>
 					<ul>
 						<li class="fragment fade-up"><i>Open Source JS Library</i> for building <i>Dynamic UI</i></li>
+						<span style="font-style: italic" class="fragment fade-up">https://github.com/facebook/react</span>
 						<li class="fragment fade-up">Which in MVC terms is <span class="fragment fade-right"> the View</span></li>
 						<li class="fragment fade-up">Initially developed by Facebook</li>
 						<li class="fragment fade-up">Maintained by Facebook and the React community</li>
@@ -45,13 +63,11 @@
 				<section>
 					<h3>Why ReactJS?</h3>
 					<ul>
-						<li class="fragment fade-up">Declarative</li>
 						<li class="fragment fade-up">Component-based</li>
 						<li class="fragment fade-up">Usable with different technology stack</li>
 						<li class="fragment fade-up">You can even write for mobile using React Native</li>
 					</ul>
 				</section>
-				
 				<!-- <section>
 					<h4>Tools for React</h4>
 					<ul>
@@ -63,17 +79,31 @@
 				</section>
 				<section>
 					<h4>Components</h4>
+					<span class="fragment fade-up">Are nested in some hierarchy</span>
+					<img class="fragment fade-up" src="img/component-hierachy-example.png" alt="">
+				</section>
+				<section>
+					<div class="fragment fade-up">This hierarchy is called <span>Virtual DOM</span></div>
+					<div class="fragment fade-up">What is VirtualDOM?</div>
+					<img class="fragment fade-up" src="img/magic.gif" alt="MAGIC">
+				</section>
+				<section>
+					<img src="img/virtual-DOM-example.png" alt="VirtualDOM">
+				</section>
+				<section>
+					<h3>Component Specific</h3>
 					<ul>
-						<li class="fragment fade-up"><pre style="display: inline-block"><code style="display: inline-block">render()</code></pre></li>
+						<li class="fragment fade-up"><pre style="display: inline-block"><code style="display: inline-block">render()</code></pre> the only one required</li>
+						<li class="fragment fade-up"><pre style="display: inline-block"><code style="display: inline-block">constructor()</code></pre> </li>
 						<li class="fragment fade-up"><pre style="display: inline-block"><code style="display: inline-block">this.props</code></pre></li>
 						<li class="fragment fade-up"><pre style="display: inline-block"><code style="display: inline-block">this.state</code></pre></li>
 					</ul>
 				</section>
 				<section>
 					<h4>Lifecycle</h4>
-					<ul>
-						<li class="fragment fade-up"></li>
-					</ul>
+				</section>
+				<section>
+					<img src="img/lifecycle.png" alt="">
 				</section>
 				<section>
 					<h4>Resources</h4>
