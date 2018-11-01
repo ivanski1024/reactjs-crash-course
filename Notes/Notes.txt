@@ -43,7 +43,33 @@ https://github.com/facebook/react
 
 - Why React?
 
-	In React we define reusable 'Components'.
+	
+	Components'.
+	These component
+		- are reusable.
+		- encapsulate all the data and functionallity they need
+
+	More about components later
+
+	React has this thing called 
+
+
+		- two types of components
+			functional:
+			```
+			function Welcome(props) {
+  				return <h1>Hello, {props.name}</h1>;
+			}```
+			class:
+			```
+			class Welcome extends React.Component {
+				render() {
+					return <h1>Hello, {this.props.name}</h1>;
+				}
+			}```
+
+
+
 	Those components should have the render() method which defines how the component looks
 	Components are nested in hierarchy (for example: show diagram)
 
